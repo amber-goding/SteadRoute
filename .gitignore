@@ -1,0 +1,23 @@
+# Starter archive is a local transport copy, not application source.
+/SteadRoute_Coding_Starter.zip
+
+# Dependencies and generated test output
+node_modules/
+coverage/
+playwright-report/
+test-results/
+*.log
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+.claude/settings.local.json
+
+# Private runtime content and temporary files
+/uploads/
+/private-storage/
+/.tmp/
+.DS_Store
+Thumbs.db
