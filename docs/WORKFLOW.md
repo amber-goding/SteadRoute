@@ -1,6 +1,10 @@
 # SteadRoute working workflow
 
-Owner decisions recorded November 24, 2026: omit prompt history; review three visual concepts before implementation; recommend a model and reasoning/effort level for every prompt; preserve concise prompts, meaningful testing, Git checkpoints and shared Codex/Claude handoffs.
+Owner decisions recorded November 24, 2026: omit prompt history; build the foundation and tested core research journey before visual selection, then select a direction before expanding the remaining workspaces; recommend a model and reasoning/effort level for every prompt; preserve concise prompts, meaningful testing, Git checkpoints and shared Codex/Claude handoffs. This sequence supersedes earlier design-first instructions.
+
+## Default roles and continuing build chat
+
+Codex prepares concise prompts and reviews evidence in Build & Prompts; Amber normally runs implementation prompts in Claude Code. Either tool can switch to planning or implementation through an explicit handoff, including when token availability requires it. One implementation writer at a time. Read docs/BUILD_HANDOFF.md for the complete continuation contract. The Build chat owns the next prompt, reviews, bounded repairs, test guidance and Git checkpoint recommendations; no return to the setup chat is required.
 
 ## Two project chats
 
@@ -35,11 +39,11 @@ Use the model picker and available effort control explicitly; a sentence in a pr
 
 Official references checked November 24, 2026: https://learn.chatgpt.com/docs/model-selection and https://code.claude.com/docs/en/model-config . Recommendations are task-level choices, not provider guarantees of quality.
 
-## Design approval before implementation
+## Visual selection after the core research journey
 
-Create three genuinely different visual directions using the same search/results and program-detail flows so comparison is fair. Use fictional data and preserve accepted information architecture. Review wide and narrow screens, keyboard focus, readability, touch targets and interaction states. Distinction must include typography, spacing, shape, density and navigation treatment, not only color.
+First implement the bounded foundation and a tested search/results/profile/comparison journey with a simple accessible provisional interface. Do not wait for final visual selection to do this work. Three concept previews already exist under docs/design-concepts; preserve their recorded evidence and use them for the later owner review rather than repeating the milestone. Compare the directions using the same search/results and program-detail flows so comparison is fair. Use fictional data and preserve accepted information architecture. Review wide and narrow screens, keyboard focus, readability, touch targets and interaction states. Distinction must include typography, spacing, shape, density and navigation treatment, not only color.
 
-The intended experience is professional, distinctive, clear, respectful and easy to use for participants and busy staff. Avoid incarceration-themed imagery, stigmatizing language, decorative dashboard clutter, mandatory animation and a generic template presented as a final design. Do not silently choose a concept. Record the owner's selected direction, design tokens and component rules before production UI implementation. Concept previews are not permission to implement the application or claim integrations work.
+The intended experience is professional, distinctive, clear, respectful and easy to use for participants and busy staff. Avoid incarceration-themed imagery, stigmatizing language, decorative dashboard clutter, mandatory animation and a generic template presented as a final design. Do not silently choose a concept. Record the owner's selected direction, design tokens and component rules after the working core journey and before expanding styling across the remaining workspaces. Reconcile the core screens with that selection; provisional styling is not final approval. Concept previews are not permission to implement the application or claim integrations work.
 
 ## Verification and evidence
 

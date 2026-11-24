@@ -3,7 +3,8 @@
 Tool: Codex
 Model: GPT-6.2 Astra
 Reasoning: High
-Outcome: three distinct SteadRoute visual concepts for owner selection before application implementation.
+Status: previews already exist. This prompt is a retained reference, not the next build task. Owner-approved order now starts with foundation and core research journey. After those milestones, review the existing three previews for owner selection before extending the visual system across remaining workspaces. Do not regenerate completed previews by default.
+Outcome when explicitly requested: three distinct SteadRoute visual concepts for owner selection.
 
 Read AGENTS.md, docs/WORKFLOW.md, docs/DECISIONS.md, docs/BUILD_STATUS.md, the relevant research-flow requirements in docs/PRD.md and accepted figures in docs/wireframes. Inspect the project path and Git status; preserve existing work.
 

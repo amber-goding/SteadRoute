@@ -34,9 +34,10 @@ Use `docs/BUILD_STATUS.md` to continue development and `docs/STAKEHOLDER_FEEDBAC
 
 Stakeholder nonresponse is not a development dependency. Continue the approved build with documented assumptions, meaningful tests and fictional demonstration records; real deployment and claimed validation retain their actual evidence/authorization requirements.
 - `prompts/01-foundation.md`: the first bounded implementation prompt.
-- `prompts/00-visual-concepts.md`: the next task, before application implementation.
+- `prompts/00-visual-concepts.md`: retained concept-creation reference; existing previews will be reviewed after the working core journey.
+- `docs/BUILD_HANDOFF.md`: continuing Build & Prompts workflow, default tool roles and handoff contract.
 - `prompts/02-stakeholder-outreach.md`: initialize the separate outreach chat.
 
 ## Begin coding
 
-Open the dedicated local project, confirm the folder/instruction setup and then use `prompts/00-visual-concepts.md` in the Build and Prompts chat. Review three concepts and record the owner's selection before running `prompts/01-foundation.md`. No service credentials are included. Configure secrets outside chat when required. Hosting provisioning, paid calls, committing and deployment require separate authorization. Do not create prompt history; keep concise current status and decisions instead.
+Both project chats are set up according to the owner. Continue in Build & Prompts: Codex prepares the bounded Claude Code foundation prompt from prompts/01-foundation.md; Amber runs it in Claude. Next build the tested core research journey with provisional accessible UI, then review the three existing concepts and record the owner's selection before expanding the remaining workspaces. Either tool may switch planning/implementation roles through the shared handoff; keep one implementation writer. No service credentials are included. Configure secrets outside chat when required. Hosting provisioning, paid calls, committing and deployment require separate authorization. Do not create prompt history; keep concise current status and decisions instead.

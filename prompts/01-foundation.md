@@ -1,9 +1,10 @@
 # First coding prompt
 
-Tool: Codex
-Model: GPT-6.2 Sol
-Reasoning: High
-Prerequisite: the owner has selected one of the three visual concepts and the approved design is recorded. This is the first application implementation prompt, not the next setup task.
+Tool: Claude Code (default implementer)
+Model: Claude Sonnet 5.5, if available
+Reasoning/effort: High, if supported by the selected model
+Fallback implementer: Codex, GPT-6.2 Sol, High; explicitly hand over before switching.
+Outcome: verified project foundation only. Owner-approved order: foundation, core research journey, then visual selection. No design-selection prerequisite applies to this milestone. Read docs/BUILD_HANDOFF.md.
 
 Build SteadRoute milestone 1 in this dedicated project. Read AGENTS.md, docs/DECISIONS.md, docs/PRD.md, docs/BUILD_PLAN.md and docs/BUILD_STATUS.md first. Inspect the project path, existing files, applicable instructions and Git status. If this is the professional portfolio or a different existing app, stop before editing it and explain the mismatch. Preserve existing work.
 

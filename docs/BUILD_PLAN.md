@@ -2,9 +2,9 @@
 
 The milestones sequence the approved scope. They do not defer features to an unapproved later release. Do not promise a completion date before estimating and checking working progress.
 
-## 0 Visual direction review
+## Approved sequence clarification - November 24, 2026
 
-Owner-approved prerequisite added November 24, 2026: create and review three distinct interactive visual concepts using the same core research screens. Validate wide/narrow layout, readability, keyboard focus and representative states. The owner selects a direction; record its design tokens and component rules before application implementation. This design milestone does not change approved scope or the accepted information architecture.
+The owner superseded the earlier design-first prerequisite: complete milestone 1 (foundation), then milestone 2 (tested core research journey with provisional accessible UI), then select a visual direction before expanding across remaining workspaces. All approved features remain in scope. Three interactive previews already exist under docs/design-concepts; preserve them and their recorded checks. After milestone 2, review these with the owner, record selected tokens and component rules, and reconcile the core screens before proceeding to the remaining workspaces. This is a sequence change, not a scope reduction.
 
 ## 1 Dedicated project foundation
 

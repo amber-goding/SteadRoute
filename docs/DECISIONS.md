@@ -28,7 +28,7 @@ Participant influence and exact placement authority for the intended release pat
 ## Owner workflow decisions November 24 2026
 
 - Omit prompt history. Do not create a transcript-style replacement or invoke a prompt-history skill for SteadRoute.
-- Review three distinct visual concepts before application implementation; record the owner's selected direction before production UI work.
+- Earlier order, now superseded by the later November 24 sequence decision below: review three distinct visual concepts before application implementation.
 - Recommend tool, model and reasoning/effort level for every task prompt. Retain concise prompts, meaningful tests, evidence-based milestone reports and appropriately timed Git commands/checkpoints.
 - Codex and Claude use the same AGENTS.md and project status/decision records. CLAUDE.md imports the shared instructions. The owner can handle stakeholder outreach in parallel with the single active coding lane.
 - Extraction and shared instruction setup are authorized. Application implementation, package installation, cloud provisioning, commits, pushes and deployment are not authorized by this setup task.
@@ -43,3 +43,11 @@ Participant influence and exact placement authority for the intended release pat
 ## Change entry format
 
 Date; source; fact or recommendation; evidence; affected PRD sections; proposed change; owner decision; implementation/test impact. Stakeholder feedback remains a finding until accepted as a product change by the owner.
+
+## Approved revised sequence and tool roles - November 24, 2026
+
+- Source: Amber explicitly accepted the recommended order and requested shared instruction updates and a complete Build & Prompts handoff.
+- Supersedes the earlier visual-first gate: foundation first, tested core research journey with provisional accessible UI second, owner review/selection of the existing three concepts third, then expansion across remaining workspaces. Preserve completed previews and their recorded verification. Full approved capstone scope remains unchanged.
+- Both project chats are now set up according to Amber. Build & Prompts continues the build journey without requiring a return to setup. BUILD_HANDOFF.md carries the workflow and context.
+- Default roles: Codex generates prompts and reviews progress; Amber runs implementation prompts in Claude Code. Either tool may take over either role by explicit handoff for preference or token availability. One active implementation writer, shared AGENTS.md authority and compact status/decision evidence; no prompt history.
+- This task authorizes shared documentation/prompt updates only. No application code, staging, commit, push, service provisioning or deployment is authorized by the handoff itself. Inspect actual Git state rather than assuming Amber has committed.
